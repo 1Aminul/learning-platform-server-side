@@ -1,0 +1,87 @@
+[
+    {
+    "id": 1,
+    "name": "Computer Technologies",
+    "email": "Sincere@april.biz",
+    "details": "Computer technology is used to process information. The best example of computer technology is the Internet, which has been around for a while now. This technology allows people to communicate and share information over the world through the use of computers and other communication devices.You can use computer technology in many ways, such as using it to write programs that help you do your work better or sharing pictures on social media sites like Facebook or Instagram without having to physically print them out yourself. It's not only used in homes and offices, but also in schools where students are taught how to use computers in order to complete their schoolwork more efficiently.Computer technology is useful because it helps us perform tasks faster than we could have done before with just paper and pencils or even pen and paper. In addition, it's very important because you don't need a lot of money to buy computers or other electronic devices anymore; this makes them much more accessible for everyone who wants one Hope this answer helped! Thanks for reading my post ",
+    "image": "./images/course1.jpg",
+    "price": "16000",
+    "status": "Online Course"
+  },
+
+{
+    "id": 2,
+    "name": "Web Development",
+    "email": "aminulsc12@gmail.com",
+    "details": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.",
+    "image": "./images/course4.jpg",
+    "category": [
+        { "id": 1, "name": "HTML", "image": "./images/html.jpg"},
+        { "id": 2, "name": "css", "image": "./images/css.jpg"},
+        { "id": 3, "name": "JavaScript", "image": "./images/js.jpg"},
+        { "id": 4, "name": "Bootstrap", "image": "./images/bs.jpg"}
+    ],
+    "price": "6000",
+    "status": "Online Course"
+  },
+
+{
+    "id": 3,
+    "name": "Software Engineering",
+    "email": "aminulsc12@gmail.com",
+    "details": "Software engineering is a systematic engineering approach to software development. A software engineer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software.Computer technology is used to process information. The best example of computer technology is the Internet, which has been around for a while now. This technology allows people to communicate and share information over the world through the use of computers and other communication devices.You can use computer technology in many ways, such as using it to write programs that help you do your work better or sharing pictures on social media ",
+    "image": "./images/course3.jpg",
+    "category": [
+        { "id": 1, "name": "Planning", "image": "./images/plan.jpg"},
+        { "id": 2, "name": "Designing", "image": "./images/design.jpg"},
+        { "id": 3, "name": "Analys", "image": "./images/analys.jpg"},
+        { "id": 4, "name": "Testing", "image": "./images/test.jpg"}
+    ],
+    "price": "24000",
+    "status": "Online Course"
+  },
+
+{
+    "id": 4,
+    "name": "Graphics Designing",
+    "email": "aminulsc12@gmail.com",
+    "details": "Graphic design is a profession,applied art and academic discipline whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives.Graphic design is an interdisciplinary branch of design and of the fine arts. Its practice involves creativity, innovation and lateral thinking using manual or digital tools, where it is usual to use text and graphics to communicate visually.The role of the graphic designer in the communication process is that of encoder or interpreter of the message. They work on the interpretation, ordering, and presentation of visual messages. Usually, graphic design uses the aesthetics of typography and the compositional arrangement of the text, ornamentation, and imagery to convey ideas, feelings, and attitudes beyond what language alone expreses. The design work can be based on a customer's demand, a demand that ends up being established linguistically, either orally or in writing, that is, that graphic design transforms a linguistic message into a graphic manifestation. ",
+    "image": "./images/course5.jpg",
+    "category": [
+        { "id": 1, "name":"Photoshop", "image": "./images/photoshop.jpg"},
+        { "id": 2, "name": "Illustrator", "image": "./images/illus.jpg"},
+        { "id": 3, "name": "DreamWeaver", "image": "./images/dream.jpg"},
+        { "id": 4, "name": "InDesign", "image": "./images/id.jpg"}
+    ],
+
+    "price": "6000",
+    "status": "Online Course"
+  },
+
+{
+    "id": 5,
+    "name": "Animation Creator",
+    "email": "aminulsc12@gmail.com",
+    "details": "Animation is a method by which still figures are manipulated to appear as moving images. In traditional animation, images are drawn or painted by hand on transparent celluloid sheets to be photographed and exhibited on film. Today, most animations are made with computer-generated imagery (CGI). Computer animation can be very detailed 3D animation, while 2D computer animation (which may have the look of traditional animation) can be used for stylistic reasons, low bandwidth, or faster real-time renderings. Other common animation methods apply a stop motion technique to two- and three-dimensional objects like paper cutouts, puppets, or clay figures.",
+    "image": "./images/course6.jpg",
+    "category": [
+        { "id": 1, "name":"3D Animation", "image": "./images/3d.jpg"},
+        { "id": 2, "name": "2D Animation", "image": "./images/2d.jpg"},
+        { "id": 3, "name": "Stop Motion Animaiton", "image": "./images/stop-motion.jpg"},
+        { "id": 4, "name": "Motion Graphics", "image": "./images/motion.jpg"}
+    ],
+    "price": "10000",
+    "status": "Online Course"
+  },
+
+{
+    "id": 6,
+    "name": "Chemical Engineering",
+    "email": "aminulsc12@gmail.com",
+    "details": "Chemical engineering is an engineering field which deals with the study of operation and design of chemical plants as well as methods of improving production. Chemical engineers develop economical commercial processes to convert raw materials into useful products. Chemical engineering uses principles of chemistry, physics, mathematics, biology, and economics to efficiently use, produce, design, transport and transform energy and materials. The work of chemical engineers can range from the utilization of nanotechnology and nanomaterials in the laboratory to large-scale industrial processes that convert chemicals, raw materials, living cells, microorganisms, and energy into useful forms and products. Chemical engineers are involved in many aspects of plant design and operation, including safety and hazard assessments, process design and analysis, modeling, control engineering, chemical reaction engineering, nuclear engineering, biological engineering, construction specification, and operating instructions.",
+    "image": "./images/course3.jpg",
+    "price": "20000",
+    "status": "Online Course"
+  }
+  ]
+  
