@@ -1,8 +1,8 @@
 [
-    {"id": 1,"name": "Computer Technologies"},
-    {"id": 2,"name": "Web Development"},
-    {"id": 3,"name": "Software Engineering"},
-    {"id": 4,"name": "Graphics Designing"},
-    {"id": 5,"name": "Animation"},
-    {"id": 6,"name": "Chemical Engineering"}
+    {"id": "1","name": "Computer Technologies"},
+    {"id": "2","name": "Web Development"},
+    {"id": "3","name": "Software Engineering"},
+    {"id": "4","name": "Graphics Designing"},
+    {"id": "5","name": "Animation"},
+    {"id": "6","name": "Chemical Engineering"}
 ]

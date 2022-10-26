@@ -1,20 +1,27 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const port = 5000
 
-const category = require('./fakedb/catagory.json')
-const course = require('./fakedb/data.json')
+app.use(cors())
+
+const categories = require('./fakedb/catagory.json')
+const courses = require('./fakedb/data.json')
 
 app.get('/category',(req, res)=>{
-    res.send(category)
+    // const id = req.params.id
+    // const category = categories.find(category=> category.id === id)
+    res.send(categories)
 })
 
-app.get('/courses/:id', (req, res)=>{
-    console.log(req);
-    // res.send(course);
+app.get('/courses', (req, res)=>{
+    res.send(courses)
 })
 app.get('/courses/:id',(req, res)=>{
 
+    const id = req.params.id
+    const course = courses.find(course=> course.id === id)
+    res.send(course)
 })
 
 
