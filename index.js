@@ -14,13 +14,14 @@ app.get('/category',(req, res)=>{
     res.send(categories)
 })
 
+
 app.get('/courses', (req, res)=>{
     res.send(courses)
 })
 app.get('/courses/:id',(req, res)=>{
 
     const id = req.params.id
-    const course = courses.find(course=> course.id === id)
+    const course = courses.filter(course=> course.id === id)
     res.send(course)
 })
 
